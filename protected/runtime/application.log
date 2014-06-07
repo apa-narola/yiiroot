@@ -165,3 +165,80 @@ Stack trace:
 REQUEST_URI=/yiiroot/index.php/user/admin
 HTTP_REFERER=http://localhost/yiiroot/index.php/site/login
 ---
+2014/06/07 04:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\Public_html\yii-1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 D:\Public_html\yii-1.1.14\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\Public_html\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Public_html\yiiroot\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiroot/index.php/user/registration
+HTTP_REFERER=http://localhost/yiiroot/index.php/user/login
+---
+2014/06/07 04:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\Public_html\yii-1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 D:\Public_html\yii-1.1.14\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\Public_html\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Public_html\yiiroot\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiroot/index.php
+HTTP_REFERER=http://localhost/yiiroot/index.php?r=user/login
+---
+2014/06/07 04:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\Public_html\yii-1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 D:\Public_html\yii-1.1.14\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\Public_html\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Public_html\yiiroot\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiroot/index.php
+HTTP_REFERER=http://localhost/yiiroot/index.php?r=user/login
+---
+2014/06/07 04:49:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "modules/user/login".' in D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('modules/user/lo...')
+#1 D:\Public_html\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Public_html\yiiroot\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiroot/index.php/modules/user/login
+---
+2014/06/07 05:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/site/contact".' in D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('user/site/conta...')
+#1 D:\Public_html\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Public_html\yiiroot\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiroot/index.php/user/site/contact
+HTTP_REFERER=http://localhost/yiiroot/index.php/user/login
+---
+2014/06/07 05:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/site/contact".' in D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('user/site/conta...')
+#1 D:\Public_html\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Public_html\yiiroot\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiroot/index.php/user/site/contact
+HTTP_REFERER=http://localhost/yiiroot/index.php/user/profile
+---
+2014/06/07 05:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/site/contact".' in D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('user/site/conta...')
+#1 D:\Public_html\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Public_html\yiiroot\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiroot/index.php/user/site/contact
+HTTP_REFERER=http://localhost/yiiroot/index.php/user/profile
+---
+2014/06/07 05:11:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/post/index".' in D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Public_html\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('user/post/index')
+#1 D:\Public_html\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Public_html\yiiroot\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiroot/index.php/user/post/index
+HTTP_REFERER=http://localhost/yiiroot/index.php/user/profile
+---
